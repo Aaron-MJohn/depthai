@@ -42,16 +42,16 @@ stringToCam = {
 
 
 camToMonoRes = {
-                'OV7251' : dai.MonoCameraProperties.SensorResolution.THE_480_P,
-                'OV9282' : dai.MonoCameraProperties.SensorResolution.THE_800_P,
+                'OV7251' : dai.MonoCameraProperties.SensorResolution.THE_720_P,
+                'OV9282' : dai.MonoCameraProperties.SensorResolution.THE_720_P,
                 }
 
 camToRgbRes = {
-                'IMX378' : dai.ColorCameraProperties.SensorResolution.THE_4_K,
-                'IMX214' : dai.ColorCameraProperties.SensorResolution.THE_4_K,
-                'OV9782' : dai.ColorCameraProperties.SensorResolution.THE_800_P,
-                'IMX582' : dai.ColorCameraProperties.SensorResolution.THE_12_MP,
-                'AR0234' : dai.ColorCameraProperties.SensorResolution.THE_1200_P,
+                'IMX378' : dai.ColorCameraProperties.SensorResolution.THE_1080_P,
+                'IMX214' : dai.ColorCameraProperties.SensorResolution.THE_1080_P,
+                'OV9782' : dai.ColorCameraProperties.SensorResolution.THE_1080_P,
+                'IMX582' : dai.ColorCameraProperties.SensorResolution.THE_1080_P,
+                'AR0234' : dai.ColorCameraProperties.SensorResolution.THE_1080_P,
                 }
 
 antibandingOpts = {
